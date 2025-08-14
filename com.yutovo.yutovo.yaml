@@ -21,6 +21,7 @@ modules:
       - install -Dm644 /app/bin/yutovo.xml -t /app/share/mime/packages/
       - install -Dm644 /app/bin/yutovo.png -t /app/share/icons/hicolor/256x256/apps/
       - install -Dm644 /app/bin/yutovo.desktop -t /app/share/applications/
+      - install -Dm644 /app/bin/com.yutovo.yutovo.metainfo.xml -t /app/share/metainfo/
     post-install:
       - update-mime-database /app/share/mime
     sources:
