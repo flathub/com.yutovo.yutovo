@@ -37,6 +37,16 @@
   </description>
   
   <releases>
+    <release version="1.2.4" date="2025-09-11">
+      <description>
+        <p>Release description</p>
+        <ul>
+          <li>Added unit conversion calculators</li>
+          <li>Added electrical articles and calculators</li>
+          <li>Added file menu items</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.2.3" date="2025-08-29">
       <description>
         <p>Release description</p>
