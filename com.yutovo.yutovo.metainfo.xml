@@ -3,11 +3,7 @@
   <id>com.yutovo.yutovo</id>
   
   <name>Yutovo</name>
-  <name xml:lang="ru">Ютово</name>
-  
   <summary>Visual calculator inside a text editor</summary>
-  <summary xml:lang="ru">Наглядный калькулятор внутри текстового редактора</summary>
-  <summary xml:lang="es">Calculadora visual dentro de un editor de texto</summary>
   
   <metadata_license>MIT</metadata_license>
   <project_license>GPL-3.0-only</project_license>
@@ -17,9 +13,6 @@
   </developer>
 
   <url type="homepage">https://yutovo.com</url>
-  <url type="bugtracker">https://github.com/denprog/yutovo-desktop/issues</url>
-
-  <update_contact>support@yutovo.ru</update_contact>
 
   <icon type="remote">https://yutovo.com/yutovo.png</icon>
   
