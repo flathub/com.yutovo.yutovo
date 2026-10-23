@@ -132,6 +132,8 @@ modules:
       env:
         YUTOVO_DEPLOY: /app
         LIBRARY_PATH: /app/lib
+      make-args:
+        - -j2
     sources:
       - type: git
         url: https://github.com/denprog/yutovo-solver.git
