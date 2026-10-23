@@ -132,8 +132,12 @@ modules:
       env:
         YUTOVO_DEPLOY: /app
         LIBRARY_PATH: /app/lib
+      # calculator_solver.cpp needs several GB per g++ instance; even -j2 OOMs (exit 137)
+      # on the 4-core buildbot runner, so compile strictly one TU at a time. -g0 disables
+      # the runner-injected -g: debug info is stripped at export anyway.
+      cxxflags: -g0
       make-args:
-        - -j2
+        - -j1
     sources:
       - type: git
         url: https://github.com/denprog/yutovo-solver.git
